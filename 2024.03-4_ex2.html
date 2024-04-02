@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>글 작성하기</h1>
+    <br>
+    <label for="name"><b>작성자</b></label>
+    <input type="text" id="name"><br>
+    <label for="id"><b>아이디</b></label>
+    <input type="text" id="id"><br>
+    <label for="mail-front"><b>이메일</b></label>
+    <input type="text" id="mail-front">@<input type="text" id="mail-behind"><br>
+    <label for="phone-front"><b>휴대폰</b></label>
+    <select name="phone-front" id="phone-front">
+        <option>010</option>
+        <option>011</option>
+        <option>012</option>
+    </select>
+    <input type="text" id="phone-middle"><!--
+    --> - <!--
+    --><input type="text" id="phone-behind"><br>
+    <label for="title"><b>글제목</b></label>
+    <input type="text" id="title"><br>
+    <table>
+        <tr>
+            <td rowspan="2"><label for="content" style="padding-left: 5px; padding-right: 5px;"><b>내용</b></label></td>
+            <td><textarea name="content" id="content" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" name="submit" id="submit"></td>
+        </tr>
+    </table>
+</body>
+</html>
